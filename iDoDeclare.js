@@ -1,0 +1,10 @@
+var num1 = 24;
+var num2 = 67;
+var num3 = 89;
+var num4 = 44;
+var string1 = "nope" ;
+var string2 = "maybe" ;
+var string 3 = "absolutely not" ;
+var boolean1 = true ;
+var boolean2 = false ;
+var undef = null ;

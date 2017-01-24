@@ -1,0 +1,63 @@
+/*CSS reset settings here*/
+*{
+ margin: 10px;
+ padding: 0px;
+}
+.wrapper{
+ width: 970px;
+ background-color: #1D345C;
+ margin: 0px auto;
+ padding: 10px;
+}
+.header{
+ height: 50px;
+ background-color: #CC323A;
+ border-radius: 8px;
+ padding-top: 2px;
+}
+h1{
+  color: #C3D7EB;
+  position: relative;
+  display: flex;
+}
+.navigation{
+ height: auto;
+ width: 200px;
+ background-color: #2E7D8B;
+ float:left;
+ padding: 10px;
+ border-radius: 8px;
+
+}
+ul{
+  color: #60CBC7;
+}
+ul li{
+  color: #60CBC7;
+  font-size: 13px;
+  line-height: 10px;
+
+}
+.main_content{
+ height: 400px;
+ width: 700px;
+ background-color: #0E1821;
+ display: flex;
+ border-radius: 10px;
+
+}
+.advertisement{
+ height: 40px;
+ width: 940px;
+ background-color: #5E6672;
+ bottom: 10px;
+ border-radius: 10px;
+ padding: 10px;
+}
+p{
+  position: relative;
+  color: #7FAAD8;
+}
+a{
+  color: #60CBC7;
+}
