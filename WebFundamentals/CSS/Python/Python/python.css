@@ -1,31 +1,37 @@
 /*CSS reset settings here*/
-*{
+/**{
 
+}*/
+p{
+  font-family:
 }
 .wrapper{
- width: 970px;
- height: 600px;
+ width: 100%;
+ height: 450px;
  background-color: #265175;
  margin: 0px auto;
  font-family: arial;
  padding: 10px;
+ display: block;
 }
 .header{
  height: 70px;
  border-radius: 8px;
  padding-top: 2px;
+ display: block;
 
 }
 #python{
   height: 110%;
-  float: left;
+  display: inline-block;
 
 }
 .search{
   position: relative;
   height: 50%;
   display: block;
-  float: right;
+  display: inline-block;
+  left: 35%
 
 }
 .textsize{
@@ -38,72 +44,102 @@
   height: 70px;
   padding: 20px;
 }
-.navigation{
- position: relative;
- display: block;
- height: 50px;
- width: 930px;
- background-color: #4B80AB;
- border-radius: 8px;
- top: 50px;
- left: 10px;
-}
-#navText{
-  font-size: 120%;
-  color: white;
-  display: inline-block;
-  position: absolute;
-  width: 80%;
-  text-align: center;
-}
-.list1{
-  top: 150px;
-  left:80px;
-  margin-left: 30px;
-  float: left;
+/*div.navigation {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #487EAB;
+
 
 }
-ul{
+
+nav{
+    display:block;
+    overflow:auto;
+    color: white;
+    width:35%;
+}
+nav a{
+    text-align:center;
+    color: white;
+    justify-content: center;
+}*/
+
+
+/*#navText{
+  font-size: 120%;
+  font-weight: lighter;
+  color: white;
+  display: block;*/
+
+}
+/*.list1{
+  top: 400px;
+  left:80px;
+}*/
+.mainText{
+ height: 370px;
+ width: 800px;
+ display: block;
+
+}
+.bluelist{
   color: white;
   list-style-image: url('arrow.png');
-  line-height: 7px;
-
-}
-.mainText{
- height: 400px;
- width: 700px;
- display: flex;
- position: relative;
- justify-content: center;
-
+  line-height: 3px;
+  font-size: 90%;
+  display: inline-block;
 }
 #description{
   color: white;
-  position: absolute;
-  top: 60px;
+  /*top: 60px;*/
   font-size: 90%;
+  padding-left: 50px;
+  display: inline-block;
 }
 #beautifulText{
   color: yellow;
-  position: absolute;
   top: 160px;
   text-align: center;
   font-style: italic;
   line-height: 25px;
-}
-.advertisement{
- height: 40px;
- width: 940px;
- background-color: #5E6672;
- bottom: 10px;
- border-radius: 10px;
- padding: 10px;
-}
-p{
+  left: 450px;
   position: relative;
-  color: #7FAAD8;
+}
+.gettingStarted{
+  width: 970px;
+  height: 100px;
+  background-color: : white;
+  color: black;
+  font-size: 80%;
+}
+#getStart{
+  top: 50px;
+  border-top: 5px #75A8D3 solid;
+  padding: 15px;
+  text-align: center;
+}
+.bottomBar{
+ height: 100px;
+ width: 970px;
+ background-color: #326B9B;
+ display: block;
+ top: 770px;
+ text-align: center;
+}
+.bottomNav{
+  text-align: center;
+  color: silver;
+  top: 50%;
+  position: relative;
+}
+table{
+  text-align: center;
+  padding: 10px;
+}
+td{
+  padding: 10px;
 }
 a{
   color: #CEAF04;
   text-decoration: none;
-}
+}*/
