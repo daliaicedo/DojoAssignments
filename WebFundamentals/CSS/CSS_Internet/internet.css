@@ -1,0 +1,172 @@
+*{
+    margin: 0 auto;
+    font-family: Helvetica;
+    /*text-align: center;*/
+}
+.container{
+ width: 970px;
+ height: 900px;
+
+ }
+ .header{
+   width: 100%;
+   height: 175px;
+   background-color: white;
+   height: 70px;
+   display: inline-block;
+   margin-left: 30px;
+
+}
+ #globe{
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+ }
+ .header p{
+   vertical-align: middle;
+   display: inline-block;
+   font-size: 35px;
+   font-family: Helvetica;
+   padding-top: 30px;
+ }
+
+ .blueHeader{
+   height: 50px;
+   width: 100%;
+   background: linear-gradient(#5485AB, slategrey, #5485AB);
+ }
+ .blueHeader p{
+   color: white;
+   font-family: Helvetica;
+   vertical-align: bottom;
+   margin-left: 10px;
+   font-size: 24px;
+   padding-top: 20px;
+   border: 1px silver;
+ }
+ .mainPage {
+   width: 100%;
+   height: 100%;
+   background-color: #fcfcfc;
+   display: block;
+ }
+ .leftPanel{
+   width: 20%;
+   text-align: center;
+   padding: 10px;
+   display: inline-block;
+ }
+
+ .leftPanel span{
+   color: #5485AB
+ }
+
+ .whatInternet{
+   padding-bottom: 20px;
+   border-bottom: 1px grey solid;
+ }
+ .whatInternet p{
+   font-weight: bold;
+   font-size: 12px;
+ }
+ .advertisement{
+   background-image: url(ad_background.png);
+   margin-top: 20px;
+   width: 100%;
+   height: 300px;
+   box-shadow: grey 2px 2px 2px;
+ }
+ .advertisement p{
+   padding-top: 20px;
+   color: white;
+ }
+ .advertisement img{
+   width: 70px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ .rightContent{
+   width: 70%;
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 50px;
+
+ }
+
+ .DNS{
+   width: auto;
+   display: inline-block;
+   border-bottom: 1px grey solid;
+ }
+ .DNS img{
+   width: 25px;
+   display: inline-block;
+ }
+ .DNS p{
+   display: inline-block;
+   color: #5485AB
+ }
+ .numbers{
+   display: inline-block;
+   width: auto;
+   text-align: right;
+   padding-left: 400px;
+   /*position: absolute;*/
+ }
+ .numbers img{
+   width: 45px;
+   margin-right: 20px;
+ }
+ .numbers p{
+   color: grey;
+   font-size: 10px;
+   vertical-align: top;
+ }
+
+ .numbers span{
+   color: #6DC8E0;
+   font-size: 22px;
+   font-weight: bold;
+ }
+ .clientsAndServers{
+   font-size: 13px;
+   background-color: white;
+   padding: 10px;
+ }
+ .clientsAndServers h1{
+   color: #6DC8E0;
+   font-size: 19px;
+ }
+.clientsAndServers img{
+  width: 300px;
+  padding-left: 150px;
+
+}
+.HTML_box{
+  border: 5px #6DC8E0 solid;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  display: block;
+}
+.HTML_box img{
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+.HTML_text{
+  display: inline-block;
+  width: 80%;
+}
+
+.HTML_text h1{
+  color: #6DC8E0;
+  font-size: 19px;
+  vertical-align: top;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.HTML_text p{
+  font-size: 12px;
+}

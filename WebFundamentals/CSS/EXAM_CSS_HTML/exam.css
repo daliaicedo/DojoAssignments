@@ -1,0 +1,204 @@
+*{
+    margin: 0 auto;
+    font-family: Helvetica;
+    text-align: center;
+}
+.container{
+ width: 970px;
+ height: 900px;
+
+ }
+ .header{
+   width: 100%;
+   height: 175px;
+   background-color: #1A1A1A;
+   height: 70px;
+   display: block;
+   padding-top: 10px;
+
+}
+
+ #Logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 20px;
+ }
+.header p{
+  font-weight: bolder;
+  font-size: 15px;
+  padding-left: 550px;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  padding-top: 40px;
+}
+.navigation{
+    height: 30px;
+    width: 100%;
+    background-color: #4D4D4D;
+    display: block;
+}
+
+.navigation ul{
+    background-color: #4D4D4D;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: silver;
+    border-right: 1px white solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    font-size: 23px;
+}
+/*Navigation Ends*/
+
+.mainPage{
+  background-color: #1A1A1A;
+  height: 500px;
+  width: 970px;
+  display: block;
+  text-align: center;
+}
+.mainPage img{
+  width: 966px;
+  border: 2px grey solid;
+}
+.bottom-details{
+  display: block;
+  background-color:#1A1A1A;
+  text-align: center;
+}
+.bottom-details div{
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: left;
+}
+.bottom-details img{
+  width: 50px;
+  border: none;
+}
+.details-text{
+  display: inline-block;
+  width: 120px;
+}
+.details-text h1{
+  color: orange;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.details-text p{
+  color: white;
+  font-size: 10px;
+  text-align: left;
+}
+
+/*Main Page Ends*/
+
+
+.advertisement {
+  background-color: black;
+  height: 140px;
+  width: 100%;
+  display: block;
+}
+.advertisement button{
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+}
+.advertisement-text{
+  display: inline-block;
+  height: 100px;
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 150px;
+}
+.advertisement-text h2{
+  color: white;
+  font-weight: lighter;
+  font-size: 22px;
+  padding-bottom: 10px
+}
+.advertisement-text p{
+  color: white;
+  font-size: 12px;
+  width: 500px;
+}
+/*Advertisement Ends*/
+
+
+/*Portfolio begins*/
+
+.Portfolio{
+  display: block;
+  width: 100%;
+  background-color: #1A1A1A;
+  height: auto;
+  text-align: center;
+}
+.Portfolio h3{
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  font-weight: lighter;
+}
+.Portfolio a{
+  color: orange;
+  font-style: italic;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 610px;
+}
+.boxes{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.Portfolio-boxes{
+  display: inline-block;
+  width: 235px;
+  background-color: black;
+  vertical-align: top;
+  color: white;
+  padding-bottom: 10px;
+}
+.Portfolio-boxes img{
+    width: 230px;
+    border: 2px grey solid;
+    margin-bottom: 5px;
+  }
+.Portfolio-boxes h1{
+  color: orange;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.Portfolio-boxes p{
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+/*End of Portfolio*/
