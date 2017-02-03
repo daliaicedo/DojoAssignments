@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact Card</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Card Builder</h1>
+    </header>
+    <div class="container">
+      <div class="form">
+        <form action="contactCard" id="contactCard">
+          <p>First name:</p>
+          <input type="text" name="firstname">
+          <p>Last name:</p>
+          <input type="text" name="lastname">
+          <input type="submit" value="Submit">
+        </form>
+          <p>Description: </p>
+          <textarea name="description" form="contactCard">
+          </textarea>
+          <br><br>
+      </div> <!-- end of form -->
+      <div class="cards">
+      </div> <!-- end of cards -->
+    </div> <!-- end of container   -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

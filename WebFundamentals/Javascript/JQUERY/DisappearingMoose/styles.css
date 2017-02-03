@@ -1,0 +1,33 @@
+body{
+  background-color: slategrey;
+  height: auto;
+  width:100%;
+  text-align: center;
+}
+header{
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px black;
+  color: blue;
+}
+header h1{
+  padding-top: 5px;
+}
+.row{
+  height: 200px;
+}
+.row img{
+  width: 20%;
+}
+#restoreBtn{
+  color: teal;
+  font-size: 120%;
+  background-color: silver;
+  border: 2px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+
+}
