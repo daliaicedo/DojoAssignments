@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>What's the weather in?</title>
+  </head>
+  <body background:"clouds.jpg">
+    <div class="container">
+      <div class="search-form">
+        <form action="weather" id="weather-search">
+          <h1>What's the weather like in: </h1>
+          <input type="text" name="city">
+          <input type="submit" value="Submit">
+        </form>
+        <div class="search-result">
+        </div>
+      </div><!--end of search-form-->
+    </div> <!--end container-->
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.container{
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+button{
+  height: 100px;
+  width: 250px;
+  color: #D22C2C;
+  background-color: #fffb9a;
+  border-radius: 6px;
+  border: 5px solid #315ed1 ;
+  box-shadow: 3px 3px 3px grey;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}

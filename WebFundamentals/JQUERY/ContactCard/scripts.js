@@ -1,5 +1,4 @@
-$(document).ready(function(){
-  $('form').submit(function(event){
+$('form').submit(function(event){
     event.preventDefault();
     var firstname = $("input[name=firstname]").val();
     var lastname = $("input[name=lastname]").val();
@@ -10,4 +9,3 @@ $(document).ready(function(){
       var description = $("textarea").val();
       $(".contactcard").html("<p>"+description+"</p>");
    });
-});
