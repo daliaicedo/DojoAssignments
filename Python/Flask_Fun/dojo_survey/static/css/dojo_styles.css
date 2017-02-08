@@ -1,0 +1,15 @@
+body {
+  background-color: #797979;
+  font-family: helvetica;
+}
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid silver;
+  box-shadow: 3px 3px 3px grey;
+  padding: 50px;
+  margin-left: 10%;
+  text-align: center;
+}
