@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Counter</title>
+  </head>
+  <body>
+      <h1>This be my counter page</h1>
+      <h3>You've visitied this page {{session.count}} times</h3>
+      <form class="buttons" action="/plus" method="post">
+      <input type = 'submit' value = "plus 2" name = "button">
+      <input type = 'submit' value = "reset" name = "button">
+    </form>
+  </body>
+</html>
