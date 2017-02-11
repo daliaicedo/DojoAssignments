@@ -1,0 +1,3 @@
+use twitter;
+
+select * from tweets;
