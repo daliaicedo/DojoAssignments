@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>email validation</title>
+  </head>
+  <body>
+
+    {% if not session.valid_email %}
+    <p>EMAIL {{ session.invalid_email }} IS NOT VALID</p>
+    {% endif %}
+
+    <form action='/success' method='POST'>
+      <label for="email">Email:<input type="text" name="email" id="email"></label>
+      <input type="submit" value="Submit!">
+    </form>
+
+  </body>
+</html>
