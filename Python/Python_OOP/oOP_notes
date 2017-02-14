@@ -1,0 +1,16 @@
+class Cat (object):
+	def __init__(self, name, color,breed):
+  self.name= name
+  self.color = color
+  self.breed= breeed
+
+Kevin = Cat()
+QBert = Cat()
+
+kevin.color='grey'
+qBert.color ='white'
+
+
+~
+kevin = Cat('Kevin', 'grey', 'stray')
+qBert = Cat('qBert', 'white', 'tiger')
