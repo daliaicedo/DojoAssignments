@@ -4,6 +4,10 @@ class Cat (object):
   self.color = color
   self.breed= breeed
 
+  def murder(self, animal)
+    print "You killed{}".format(animal)
+
+
 Kevin = Cat()
 QBert = Cat()
 
@@ -14,3 +18,4 @@ qBert.color ='white'
 ~
 kevin = Cat('Kevin', 'grey', 'stray')
 qBert = Cat('qBert', 'white', 'tiger')
+kevin.murder('lizard')
