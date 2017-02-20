@@ -1,0 +1,33 @@
+DJANGO APP - FILE STEPS:
+1. start djangoenv
+2. django-admin startproject PROJECTNAME
+    -creates manage.py (you can run server)
+3. mkdir apps (inside PROJECTNAME)
+    - go into apps
+4. create __init__.py
+5. python ../manage.py startapp your_first_app
+5. settings.py in ~*main*~ folder
+    -add "apps.YOURAPPNAME", to INSTALLED_APPS
+6. go to main/urls.py
+      - from django.conf.urls import url, include
+        from django.contrib import admin
+
+        urlpatterns = [
+          url(r'^', include('apps.YOURAPPNAME.urls')),
+      ]
+7. go to apps/YOURAPPNAME create urls.py
+    add
+    from django.conf.urls import url
+    from . import views
+    urlpatterns = [
+      url(r'^$', views.index)
+    ]
+8. go to views.py in your apps/yourappname folder and add your function/template you want rendered
+    - EX:
+    from django.shortcuts import render
+    #CONTROLLER
+    # Create your views here.
+    def index(request):
+        print('8'*100)
+        return render(request, 'word_gen/index.html')
+9. create index.html inside a templates folder with a folder named after the app

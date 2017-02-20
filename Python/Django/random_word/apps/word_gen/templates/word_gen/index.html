@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>wordgen</title>
+  </head>
+  <body>
+    <div>
+      <h2>word generator attempt # [session.count]</h2>
+      <form action="word_create" name="word_gen" method="post">
+        {% csrf_token %}
+        <div class="letters">
+          {{request.session.random_word}}
+        </div>
+        <input type="submit" value="generate new word!">
+      </form>
+    </div>
+  </body>
+</html>
