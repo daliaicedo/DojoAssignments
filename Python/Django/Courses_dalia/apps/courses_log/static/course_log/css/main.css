@@ -1,0 +1,25 @@
+#classtitle {
+  padding: 0px 0px;
+}
+/* label color */
+  .input-field label {
+    color: indigo;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: indigo;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid indigo;
+  box-shadow: 0 1px 0 0 #000;
+/* label underline focus color */
+.textarea:focus {
+  border-bottom: 1px solid indigo;
+  -webkit-box-shadow: 0 1px 0 0 indigo;
+  -moz-box-shadow: 0 1px 0 0 indigo;
+  box-shadow: 0 1px 0 0 indigo;
+  }
+.collection i{
+  color: #0288d1;
+}

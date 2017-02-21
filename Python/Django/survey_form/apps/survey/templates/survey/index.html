@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>helloworld</title>
+    {% load static %}
+      <!-- The line above tells Django to be ready to listen for static files -->
+      <link rel="stylesheet" href="{% static './survey/css/maincss.css' %}"media="screen" title="no title"  charset="utf-8">
+  </head>
+  <body>
+    <div>
+      <form action="/process_survey" method="post">
+         {% csrf_token %}
+        First name:
+        <input type="text" name="firstname"><br>
+        Last name:
+        <input type="text" name="lastname"><br>
+        Dojo location:
+        <select name="cities">
+          <option value="San Jose">San Jose</option>
+          <option value="Seattle">Seattle</option>
+          <option value="Burbank">Burbank</option>
+        </select><br>
+        Favorite language:
+        <select name="languages">
+          <option value="Python">Python</option>
+          <option value="Ruby on Rains">Ruby on Rains</option>
+          <option value="Javascript">Javascript</option>
+        </select><br>
+        <input type="submit" value="submit!"/>
+      </form>
+    </div>
+  </body>
+</html>

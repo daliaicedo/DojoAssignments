@@ -9,6 +9,8 @@ def index(request):
     return render(request, 'word_gen/index.html')
 
 def word_gen(request):
+    if "count" not in request.session:
+		request.session["count"] = 0
     if request.method == "POST":
         characters = ['0', '1', '2', '3', '4', '4', '5', '6',
                       '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
@@ -19,4 +21,5 @@ def word_gen(request):
             letter = random.choice(characters)
             generated_word = generated_word + letter
         request.session['random_word'] = generated_word
+        request.session['count'] += 1
     return redirect('/')

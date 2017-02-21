@@ -6,7 +6,7 @@
   </head>
   <body>
     <div>
-      <h2>word generator attempt # [session.count]</h2>
+      <h2>word generator attempt # {{request.session.count}}</h2>
       <form action="word_create" name="word_gen" method="post">
         {% csrf_token %}
         <div class="letters">
