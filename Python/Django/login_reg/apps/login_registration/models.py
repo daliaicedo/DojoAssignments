@@ -10,3 +10,5 @@ class Users(models.Model):
     password = models.TextField(max_length=6)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    def __str__(self):
+    return self.first_name + " " + self.last_name
