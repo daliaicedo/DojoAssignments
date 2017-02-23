@@ -101,3 +101,9 @@ class User(models.Model):
     # def __str__(self):
     # return self.first_name + " " + self.last_name
     userManager = UserManager()
+
+
+class Interest(models.Model):
+	name = models.CharField(max_length=255)
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
