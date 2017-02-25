@@ -8,6 +8,7 @@ import time
 #validation stuff
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
 NAME_REGEX = re.compile(r'^[a-zA-Z]+$')
+INTERESTS_REGEX = re.compile(r'^[a-zA-Z]+$')
 
 
 # Create your models here.
@@ -90,6 +91,29 @@ class UserManager(models.Manager):
         status.update({'valid': valid})
         return status
 
+class InterestManager(models.Manager):
+    def interestCheck(self, postData):
+        print "** now using interest manager **"
+        print "** adding interests **"
+        status = True
+        messages = []
+        if len(Interest.objects.filter(interest=postData['interests'])) < 1:
+            print "hi dad!"
+            messages.append('Please enter your favorite toy!')
+            status = False
+        if not INTERESTS_REGEX.match(postData['interests']):
+            print "hello"
+            messages.append('Your toys can only contain letters.')
+            status = False
+        if status == False:
+            print "hi mom! "
+            interest = Interest.objects.create(interest = postData['interests'])
+            print Interest.objects.all()
+            return (False, messages)
+        else:
+            return(True, interest)
+
+
 class User(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.TextField(max_length=100)
@@ -104,6 +128,8 @@ class User(models.Model):
 
 
 class Interest(models.Model):
-	name = models.CharField(max_length=255)
-	created_at = models.DateTimeField(auto_now_add=True)
-	updated_at = models.DateTimeField(auto_now=True)
+    interest = models.CharField(max_length=100)
+    users = models.ManyToManyField(User, related_name="interests")
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    objects = InterestManager()

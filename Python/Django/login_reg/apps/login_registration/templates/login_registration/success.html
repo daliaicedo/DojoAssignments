@@ -12,16 +12,12 @@
             <tr>Here are dogs who have registered!:</tr>
             <tr>
                 <th>First Name</th>
-                <th>Last Name</th>
                 <th>Email</th>
-                <th>Birthday</th>
             </tr>
             {% for person in users %}
             <tr>
                 <td>{{person.first_name}}</td>
-                <td>{{person.last_name}}</td>
                 <td>{{person.email}}</td>
-                <td>{{person.birthday}}</td>
                 <td>
                     {% if person.id is not user.id %}
                     <form action='/delete' method='post'>
@@ -42,9 +38,34 @@
         </div>
         <div>
           <h4>What is your favorite toy?</h4>
-          <input type="toys" name="toys">
-          <input type="submit" value="Add toy">
-          <h3>Would you like to see the things they like?</h3>
+          <form action='/interest' method='post'>
+            {% csrf_token %}
+            <input type="interests" name="interests">
+            <input type="submit" value="Add toy">
+          </form>
+          <table>
+              <tr><h3>Would you like to see the things they like?</h3></tr>
+              <tr>
+                  <th>First Name</th>
+                  <th>Favorite toy</th>
+              </tr>
+              {% for i in interests %}
+              <tr>
+                  <td>{{i.users}}</td>
+                  <td>{{i.interest}}</td>
+                  <td>
+                      {% if person.id is not user.id %}
+                      <form action='/delete' method='post'>
+                          {% csrf_token %}
+                          <input type="hidden" name="id" value="{{person.id}}">
+                          <input type="submit" value="Delete">
+                      </form>
+                      {% endif %}
+                  </td>
+              </tr>
+              {% endfor %}
+          </table>
+
 
     </body>
 </html>

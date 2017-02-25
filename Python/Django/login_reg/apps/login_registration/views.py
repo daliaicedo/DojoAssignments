@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import User
+from .models import User, Interest
 from django.contrib import messages
 import re
 # CONTROLLAH
@@ -53,7 +53,8 @@ def welcome(request):
         print "** Welcome back, user! **"
         context = {
             'user': User.userManager.get(id=request.session['user_id']),
-            'users': User.userManager.all()
+            'users': User.userManager.all(),
+            'interests': Interest.objects.all()
         }
         return render(request, 'login_registration/success.html', context)
 
@@ -73,6 +74,19 @@ def delete(request):
         return redirect('/')
     User.userManager.get(id=request.POST['id']).delete()
     return redirect('/success')
+
+
+#interests (many to many relationships)
+def interest(request):
+    print "** adding an interest **"
+    status_info = Interest.objects.interestCheck(request.POST)
+    if status_info[0] == True:
+        return redirect("/success")
+    else:
+        print "** Something went wrong **"
+        for msg in status_info[1]:
+            messages.error(request, msg)
+        return redirect('/success')
 
 # when user goes to different url
 def any(request):
