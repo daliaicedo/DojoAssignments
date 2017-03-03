@@ -1,0 +1,29 @@
+body{
+  background-color: #b0eaff;
+  font-family: helvetica;
+}
+.container{
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+.place{
+  display: inline-block;
+  width: 20%;
+  height: 35%;
+  border: 3px rgb(152, 152, 152) dotted;
+  text-align: center;
+  border-radius: 5px;
+}
+#cave{
+  background-color: rgb(145, 132, 92);
+}
+#house{
+  background-color: rgb(255, 251, 213);
+}
+#farm{
+  background-color: rgb(255, 87, 87);
+}
+#casino{
+  background-color: rgb(52, 133, 53);
+}
