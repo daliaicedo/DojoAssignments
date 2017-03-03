@@ -4,5 +4,5 @@ from datetime import datetime
 import random
 
 urlpatterns = [
-    url(r'^', include('apps.ninja_g .urls')),
+    url(r'^', include('apps.ninja_g.urls')),
 ]
