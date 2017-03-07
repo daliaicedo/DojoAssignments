@@ -20,7 +20,7 @@ class Deck {
         self.reset(){
             
         }
-    func deal () -> Card?{
+    func deal() -> Card?{
         if self.cards.count > 0 {
             return self.cards.remove(at: 0)
         }
@@ -72,9 +72,9 @@ class Player {
     }
     
     func draw(deck:Deck) -> Card? {
-        // For this method, we'll have to know which instance of the Deck class we're using
+        
         if let drawnCard = deck.deal() {
-            // We'll utilize the deck's deal method
+
             self.hand.append(drawnCard)
             return drawnCard
         }
@@ -84,7 +84,6 @@ class Player {
     }
     
     func discard(suit: String, value: String) -> Bool {
-        // For this method, we'll need to know the suit and value of the card that the user would like to discard
         for i in 0...self.hand.count-1 {
             if (self.hand[i].suit == suit && self.hand[i].value == value) {
                 self.hand.remove(at: i)
@@ -101,34 +100,25 @@ class Player {
     }
 }
 
-// Make a new deck called newDeck
 let newDeck = Deck()
-
-// You can check to make sure it has all 52 cards with show()
-print("<<<<<<<<<<<<<<< New deck was made >>>>>>>>>>>>>>>>>")
+print("new deck created")
 newDeck.show()
 
-// Shuffle the deck to make things interesting
 newDeck.shuffle()
 
-// You can check to make sure everything's been shuffled by calling show() again
-print("<<<<<<<<<<<<<<< New deck was shuffled >>>>>>>>>>>>>>>>>")
+print("shuffled deck")
 newDeck.show()
 
-// Make a new player, let's name him Joe
-let joe = Player(name: "Joe")
+let k = Player(name: "k")
 
-// Have Joe draw five cards from newDeck
-joe.draw(deck: newDeck)
-joe.draw(deck: newDeck)
-joe.draw(deck: newDeck)
-joe.draw(deck: newDeck)
-joe.draw(deck: newDeck)
+k.draw(deck: newDeck)
+k.draw(deck: newDeck)
+k.draw(deck: newDeck)
+k.draw(deck: newDeck)
+k.draw(deck: newDeck)
 
-// Take a look at Joe's hand
 print("<<<<<<<<<<<<<<< Joe's hand >>>>>>>>>>>>>>>>>")
-joe.show()
+k.show()
 
-// Make Joe discard the Ace of Clubs if he has it
 print("<<<<<<<<<<<<<<< Joe's discard >>>>>>>>>>>>>>")
-print(joe.discard(suit: "Clubs", value: "Ace"))
+print(k.discard(suit: "Clubs", value: "Ace"))
