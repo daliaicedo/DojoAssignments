@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSquizzzz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5D6-aj-7nP">
+                                <rect key="frame" x="0.0" y="20" width="768" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="questionLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xap-zT-6z1">
+                                        <rect key="frame" x="168" y="8" width="432" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="432" id="P1j-M1-SaD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a29-fs-Bei">
+                                        <rect key="frame" x="14" y="41" width="51" height="30"/>
+                                        <state key="normal" title="Answer"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aO3-HG-wdg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szz-Ed-pZk">
+                                        <rect key="frame" x="728" y="41" width="32" height="30"/>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtu-Ku-DMK"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="answerLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeA-x5-pNJ">
+                                        <rect key="frame" x="113" y="41" width="542" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="542" id="wUy-ga-7rX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.86198814655172407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="NeA-x5-pNJ" firstAttribute="leading" secondItem="a29-fs-Bei" secondAttribute="trailing" constant="48" id="2VS-Qm-B4w"/>
+                                    <constraint firstItem="Xap-zT-6z1" firstAttribute="top" secondItem="5D6-aj-7nP" secondAttribute="top" constant="8" id="9bg-0M-V5g"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="CMM-8c-Vh4"/>
+                                    <constraint firstAttribute="trailing" secondItem="szz-Ed-pZk" secondAttribute="trailing" constant="8" id="Eyr-fI-jkE"/>
+                                    <constraint firstAttribute="height" constant="100" id="HPM-Je-abt"/>
+                                    <constraint firstItem="Xap-zT-6z1" firstAttribute="leading" secondItem="5D6-aj-7nP" secondAttribute="leading" constant="168" id="Mnj-dU-4XX"/>
+                                    <constraint firstItem="szz-Ed-pZk" firstAttribute="leading" secondItem="NeA-x5-pNJ" secondAttribute="trailing" constant="73" id="Xme-XC-Npj"/>
+                                    <constraint firstItem="a29-fs-Bei" firstAttribute="top" secondItem="5D6-aj-7nP" secondAttribute="top" constant="41" id="Zmx-DF-Zag"/>
+                                    <constraint firstItem="szz-Ed-pZk" firstAttribute="baseline" secondItem="a29-fs-Bei" secondAttribute="baseline" id="aMf-kX-FuO"/>
+                                    <constraint firstItem="NeA-x5-pNJ" firstAttribute="centerX" secondItem="5D6-aj-7nP" secondAttribute="centerX" id="gJs-0N-wjr"/>
+                                    <constraint firstItem="a29-fs-Bei" firstAttribute="leading" secondItem="5D6-aj-7nP" secondAttribute="leading" constant="14" id="hMe-ca-AKD"/>
+                                    <constraint firstItem="a29-fs-Bei" firstAttribute="leading" secondItem="5D6-aj-7nP" secondAttribute="leading" constant="14" id="kdi-T2-A96"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xap-zT-6z1" secondAttribute="trailing" constant="168" id="oKg-kM-Kbv"/>
+                                    <constraint firstItem="Xap-zT-6z1" firstAttribute="top" secondItem="5D6-aj-7nP" secondAttribute="topMargin" id="pT5-wZ-NhZ"/>
+                                    <constraint firstItem="Xap-zT-6z1" firstAttribute="centerX" secondItem="5D6-aj-7nP" secondAttribute="centerX" id="tky-gB-tq3"/>
+                                    <constraint firstAttribute="bottom" secondItem="NeA-x5-pNJ" secondAttribute="bottom" constant="2" id="ubQ-Yl-V7m"/>
+                                    <constraint firstItem="NeA-x5-pNJ" firstAttribute="top" secondItem="a29-fs-Bei" secondAttribute="top" id="xUg-yd-W3F"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5D6-aj-7nP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0F2-So-cXG"/>
+                            <constraint firstAttribute="trailing" secondItem="5D6-aj-7nP" secondAttribute="trailing" id="Blb-hk-3JA"/>
+                            <constraint firstItem="5D6-aj-7nP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DIx-XY-hS5"/>
+                            <constraint firstItem="5D6-aj-7nP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YPV-xa-cD5"/>
+                            <constraint firstItem="5D6-aj-7nP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bex-6j-exF"/>
+                            <constraint firstItem="5D6-aj-7nP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zEF-Ks-69x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="NeA-x5-pNJ" id="yYb-0I-UjP"/>
+                        <outlet property="questionLabel" destination="Xap-zT-6z1" id="2ji-Co-4CA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.9375" y="136.5234375"/>
+        </scene>
+    </scenes>
+</document>

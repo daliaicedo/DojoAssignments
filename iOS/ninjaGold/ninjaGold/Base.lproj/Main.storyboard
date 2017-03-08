@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ninjaGold" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVJ-Uf-F7g">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDT-Zs-S8k">
+                                        <rect key="frame" x="8" y="69" width="170" height="46"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                                        <size key="titleShadowOffset" width="1" height="1"/>
+                                        <state key="normal" title="Farm">
+                                            <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.54563577586206902" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCE-hY-bEe">
+                                        <rect key="frame" x="8" y="123" width="170" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="SQV-pZ-f36"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                                        <size key="titleShadowOffset" width="1" height="1"/>
+                                        <state key="normal" title="Cave">
+                                            <color key="titleColor" red="0.46804887820512819" green="0.31309907757798938" blue="0.16184027777563895" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.54563577590000001" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtv-as-p1i">
+                                        <rect key="frame" x="8" y="177" width="170" height="46"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                                        <size key="titleShadowOffset" width="1" height="1"/>
+                                        <state key="normal" title="House">
+                                            <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.54563577590000001" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20Z-DU-UvZ">
+                                        <rect key="frame" x="8" y="231" width="170" height="46"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                                        <size key="titleShadowOffset" width="1" height="1"/>
+                                        <state key="normal" title="Casino">
+                                            <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.54563577590000001" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABl-bY-Wv3">
+                                        <rect key="frame" x="100" y="327" width="214" height="58"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="40"/>
+                                        <state key="normal" title="reset">
+                                            <color key="titleColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score: 0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZv-5Q-RIA">
+                                        <rect key="frame" x="8" y="31" width="398" height="21"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="25"/>
+                                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.3150053879310345" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dtv-as-p1i" firstAttribute="top" secondItem="WCE-hY-bEe" secondAttribute="bottom" constant="8" symbolic="YES" id="1Fv-Hf-hsx"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="trailing" secondItem="hDT-Zs-S8k" secondAttribute="trailing" id="1He-vH-NMd"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="trailing" secondItem="20Z-DU-UvZ" secondAttribute="trailing" id="EDG-ZY-3yn"/>
+                                    <constraint firstItem="dtv-as-p1i" firstAttribute="top" secondItem="WCE-hY-bEe" secondAttribute="bottom" constant="8" id="Hdr-lp-maY"/>
+                                    <constraint firstItem="20Z-DU-UvZ" firstAttribute="top" secondItem="dtv-as-p1i" secondAttribute="bottom" constant="8" id="MUe-A8-60q"/>
+                                    <constraint firstItem="hDT-Zs-S8k" firstAttribute="top" secondItem="gZv-5Q-RIA" secondAttribute="bottom" constant="17" id="N3F-EM-cKm"/>
+                                    <constraint firstItem="20Z-DU-UvZ" firstAttribute="top" secondItem="dtv-as-p1i" secondAttribute="bottom" constant="8" symbolic="YES" id="PmN-I8-K0o"/>
+                                    <constraint firstItem="ABl-bY-Wv3" firstAttribute="leading" secondItem="eVJ-Uf-F7g" secondAttribute="leading" constant="100" id="Pxx-BI-QpG"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="trailing" secondItem="dtv-as-p1i" secondAttribute="trailing" id="QuT-g4-0N1"/>
+                                    <constraint firstItem="dtv-as-p1i" firstAttribute="leading" secondItem="hDT-Zs-S8k" secondAttribute="leading" id="Rgl-Nv-XuR"/>
+                                    <constraint firstAttribute="trailing" secondItem="ABl-bY-Wv3" secondAttribute="trailing" constant="100" id="VDt-Ev-iJR"/>
+                                    <constraint firstItem="ABl-bY-Wv3" firstAttribute="top" secondItem="20Z-DU-UvZ" secondAttribute="bottom" constant="50" id="VQ2-Qy-sjt"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="top" secondItem="hDT-Zs-S8k" secondAttribute="bottom" constant="8" symbolic="YES" id="Yyd-h7-iv5"/>
+                                    <constraint firstItem="hDT-Zs-S8k" firstAttribute="top" secondItem="eVJ-Uf-F7g" secondAttribute="top" constant="69" id="ZI2-GN-dte"/>
+                                    <constraint firstItem="gZv-5Q-RIA" firstAttribute="leading" secondItem="eVJ-Uf-F7g" secondAttribute="leading" constant="8" id="eAQ-45-Of0"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="leading" secondItem="hDT-Zs-S8k" secondAttribute="leading" id="oM3-La-sEM"/>
+                                    <constraint firstAttribute="trailing" secondItem="gZv-5Q-RIA" secondAttribute="trailing" constant="8" id="reC-Dc-RQ8"/>
+                                    <constraint firstItem="WCE-hY-bEe" firstAttribute="leading" secondItem="eVJ-Uf-F7g" secondAttribute="leadingMargin" id="sOj-j4-igx"/>
+                                    <constraint firstItem="20Z-DU-UvZ" firstAttribute="leading" secondItem="hDT-Zs-S8k" secondAttribute="leading" id="vQw-Op-UHd"/>
+                                    <constraint firstItem="gZv-5Q-RIA" firstAttribute="top" secondItem="eVJ-Uf-F7g" secondAttribute="top" constant="31" id="xf2-4h-WcT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eVJ-Uf-F7g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EaE-6Q-ZVg"/>
+                            <constraint firstAttribute="trailing" secondItem="eVJ-Uf-F7g" secondAttribute="trailing" id="XcQ-Zh-vqK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eVJ-Uf-F7g" secondAttribute="bottom" id="dBf-Hv-thG"/>
+                            <constraint firstItem="eVJ-Uf-F7g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kwW-Xu-j1i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="136.95652173913044"/>
+        </scene>
+    </scenes>
+</document>
