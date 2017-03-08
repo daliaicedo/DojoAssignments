@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		59832A6A1E6FF46600F0F519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832A691E6FF46600F0F519 /* AppDelegate.swift */; };
 		59832A6C1E6FF46600F0F519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832A6B1E6FF46600F0F519 /* ViewController.swift */; };
-		59832A6F1E6FF46600F0F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832A6D1E6FF46600F0F519 /* Main.storyboard */; };
+		59832A6F1E6FF46600F0F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832A6D1E6FF46600F0F519 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		59832A711E6FF46600F0F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59832A701E6FF46600F0F519 /* Assets.xcassets */; };
 		59832A741E6FF46600F0F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832A721E6FF46600F0F519 /* LaunchScreen.storyboard */; };
 		59832A7F1E6FF46600F0F519 /* ninjaGoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832A7E1E6FF46600F0F519 /* ninjaGoldTests.swift */; };
@@ -187,6 +187,9 @@
 		59832A5E1E6FF46600F0F519 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "dalia icedo";
