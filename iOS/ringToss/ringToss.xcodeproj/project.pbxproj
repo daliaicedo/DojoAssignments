@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59832B181E732FB600F0F519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832B171E732FB600F0F519 /* AppDelegate.swift */; };
+		59832B1A1E732FB600F0F519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832B191E732FB600F0F519 /* ViewController.swift */; };
+		59832B1D1E732FB600F0F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832B1B1E732FB600F0F519 /* Main.storyboard */; };
+		59832B1F1E732FB600F0F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59832B1E1E732FB600F0F519 /* Assets.xcassets */; };
+		59832B221E732FB600F0F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832B201E732FB600F0F519 /* LaunchScreen.storyboard */; };
+		59832B2D1E732FB600F0F519 /* ringTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832B2C1E732FB600F0F519 /* ringTossTests.swift */; };
+		59832B381E732FB600F0F519 /* ringTossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832B371E732FB600F0F519 /* ringTossUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59832B291E732FB600F0F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59832B0C1E732FB600F0F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59832B131E732FB600F0F519;
+			remoteInfo = ringToss;
+		};
+		59832B341E732FB600F0F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59832B0C1E732FB600F0F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59832B131E732FB600F0F519;
+			remoteInfo = ringToss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59832B141E732FB600F0F519 /* ringToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59832B171E732FB600F0F519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59832B191E732FB600F0F519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59832B1C1E732FB600F0F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59832B1E1E732FB600F0F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59832B211E732FB600F0F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59832B231E732FB600F0F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59832B281E732FB600F0F519 /* ringTossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringTossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59832B2C1E732FB600F0F519 /* ringTossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringTossTests.swift; sourceTree = "<group>"; };
+		59832B2E1E732FB600F0F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59832B331E732FB600F0F519 /* ringTossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringTossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59832B371E732FB600F0F519 /* ringTossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringTossUITests.swift; sourceTree = "<group>"; };
+		59832B391E732FB600F0F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59832B111E732FB600F0F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B251E732FB600F0F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B301E732FB600F0F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59832B0B1E732FB600F0F519 = {
+			isa = PBXGroup;
+			children = (
+				59832B161E732FB600F0F519 /* ringToss */,
+				59832B2B1E732FB600F0F519 /* ringTossTests */,
+				59832B361E732FB600F0F519 /* ringTossUITests */,
+				59832B151E732FB600F0F519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59832B151E732FB600F0F519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59832B141E732FB600F0F519 /* ringToss.app */,
+				59832B281E732FB600F0F519 /* ringTossTests.xctest */,
+				59832B331E732FB600F0F519 /* ringTossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59832B161E732FB600F0F519 /* ringToss */ = {
+			isa = PBXGroup;
+			children = (
+				59832B171E732FB600F0F519 /* AppDelegate.swift */,
+				59832B191E732FB600F0F519 /* ViewController.swift */,
+				59832B1B1E732FB600F0F519 /* Main.storyboard */,
+				59832B1E1E732FB600F0F519 /* Assets.xcassets */,
+				59832B201E732FB600F0F519 /* LaunchScreen.storyboard */,
+				59832B231E732FB600F0F519 /* Info.plist */,
+			);
+			path = ringToss;
+			sourceTree = "<group>";
+		};
+		59832B2B1E732FB600F0F519 /* ringTossTests */ = {
+			isa = PBXGroup;
+			children = (
+				59832B2C1E732FB600F0F519 /* ringTossTests.swift */,
+				59832B2E1E732FB600F0F519 /* Info.plist */,
+			);
+			path = ringTossTests;
+			sourceTree = "<group>";
+		};
+		59832B361E732FB600F0F519 /* ringTossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59832B371E732FB600F0F519 /* ringTossUITests.swift */,
+				59832B391E732FB600F0F519 /* Info.plist */,
+			);
+			path = ringTossUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59832B131E732FB600F0F519 /* ringToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59832B3C1E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringToss" */;
+			buildPhases = (
+				59832B101E732FB600F0F519 /* Sources */,
+				59832B111E732FB600F0F519 /* Frameworks */,
+				59832B121E732FB600F0F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringToss;
+			productName = ringToss;
+			productReference = 59832B141E732FB600F0F519 /* ringToss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59832B271E732FB600F0F519 /* ringTossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59832B3F1E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringTossTests" */;
+			buildPhases = (
+				59832B241E732FB600F0F519 /* Sources */,
+				59832B251E732FB600F0F519 /* Frameworks */,
+				59832B261E732FB600F0F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59832B2A1E732FB600F0F519 /* PBXTargetDependency */,
+			);
+			name = ringTossTests;
+			productName = ringTossTests;
+			productReference = 59832B281E732FB600F0F519 /* ringTossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59832B321E732FB600F0F519 /* ringTossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59832B421E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringTossUITests" */;
+			buildPhases = (
+				59832B2F1E732FB600F0F519 /* Sources */,
+				59832B301E732FB600F0F519 /* Frameworks */,
+				59832B311E732FB600F0F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59832B351E732FB600F0F519 /* PBXTargetDependency */,
+			);
+			name = ringTossUITests;
+			productName = ringTossUITests;
+			productReference = 59832B331E732FB600F0F519 /* ringTossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59832B0C1E732FB600F0F519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "dalia icedo";
+				TargetAttributes = {
+					59832B131E732FB600F0F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					59832B271E732FB600F0F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59832B131E732FB600F0F519;
+					};
+					59832B321E732FB600F0F519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59832B131E732FB600F0F519;
+					};
+				};
+			};
+			buildConfigurationList = 59832B0F1E732FB600F0F519 /* Build configuration list for PBXProject "ringToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59832B0B1E732FB600F0F519;
+			productRefGroup = 59832B151E732FB600F0F519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59832B131E732FB600F0F519 /* ringToss */,
+				59832B271E732FB600F0F519 /* ringTossTests */,
+				59832B321E732FB600F0F519 /* ringTossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59832B121E732FB600F0F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59832B221E732FB600F0F519 /* LaunchScreen.storyboard in Resources */,
+				59832B1F1E732FB600F0F519 /* Assets.xcassets in Resources */,
+				59832B1D1E732FB600F0F519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B261E732FB600F0F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B311E732FB600F0F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59832B101E732FB600F0F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59832B1A1E732FB600F0F519 /* ViewController.swift in Sources */,
+				59832B181E732FB600F0F519 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B241E732FB600F0F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59832B2D1E732FB600F0F519 /* ringTossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59832B2F1E732FB600F0F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59832B381E732FB600F0F519 /* ringTossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59832B2A1E732FB600F0F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59832B131E732FB600F0F519 /* ringToss */;
+			targetProxy = 59832B291E732FB600F0F519 /* PBXContainerItemProxy */;
+		};
+		59832B351E732FB600F0F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59832B131E732FB600F0F519 /* ringToss */;
+			targetProxy = 59832B341E732FB600F0F519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59832B1B1E732FB600F0F519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59832B1C1E732FB600F0F519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59832B201E732FB600F0F519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59832B211E732FB600F0F519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59832B3A1E732FB600F0F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59832B3B1E732FB600F0F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59832B3D1E732FB600F0F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59832B3E1E732FB600F0F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59832B401E732FB600F0F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ringTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringToss.app/ringToss";
+			};
+			name = Debug;
+		};
+		59832B411E732FB600F0F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ringTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringToss.app/ringToss";
+			};
+			name = Release;
+		};
+		59832B431E732FB600F0F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ringTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ringToss;
+			};
+			name = Debug;
+		};
+		59832B441E732FB600F0F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ringTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = diaxdo.ringTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ringToss;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59832B0F1E732FB600F0F519 /* Build configuration list for PBXProject "ringToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59832B3A1E732FB600F0F519 /* Debug */,
+				59832B3B1E732FB600F0F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59832B3C1E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59832B3D1E732FB600F0F519 /* Debug */,
+				59832B3E1E732FB600F0F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59832B3F1E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringTossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59832B401E732FB600F0F519 /* Debug */,
+				59832B411E732FB600F0F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59832B421E732FB600F0F519 /* Build configuration list for PBXNativeTarget "ringTossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59832B431E732FB600F0F519 /* Debug */,
+				59832B441E732FB600F0F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59832B0C1E732FB600F0F519 /* Project object */;
+}
