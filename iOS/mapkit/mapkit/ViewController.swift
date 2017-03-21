@@ -1,12 +1,15 @@
 //
 //  ViewController.swift
-//  blist
+//  mapkit
 //
-//  Created by dalia icedo on 3/15/17.
+//  Created by dalia icedo on 3/16/17.
 //  Copyright © 2017 dalia icedo. All rights reserved.
 //
 
 import UIKit
+import MapKit
+
+@IBOutlet weak var mapView: MKMapView!
 
 class ViewController: UIViewController {
 
@@ -20,11 +23,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var taskTextField: UITextField!
-    @IBOutlet weak var tableView: UITableView!
-
-    @IBAction func buttonPressed(_ sender: UIButton) {
-    }
-
+ 
 }
 

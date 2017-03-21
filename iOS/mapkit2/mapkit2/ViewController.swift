@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  blist
+//  mapkit2
 //
-//  Created by dalia icedo on 3/15/17.
+//  Created by dalia icedo on 3/16/17.
 //  Copyright © 2017 dalia icedo. All rights reserved.
 //
 
@@ -20,11 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var taskTextField: UITextField!
-    @IBOutlet weak var tableView: UITableView!
-
-    @IBAction func buttonPressed(_ sender: UIButton) {
-    }
 
 }
 
